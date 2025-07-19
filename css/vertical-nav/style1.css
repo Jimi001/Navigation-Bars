@@ -20,6 +20,6 @@ li a:hover {
   color: white;
 }
 
-button, div {
+button, div, br{
     display: none;
 }

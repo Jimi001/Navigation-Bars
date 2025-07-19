@@ -1,5 +1,5 @@
 ul, div {
-  visibility: hidden;
+  display: none;
 }
 /* Style the buttons */
 button {
