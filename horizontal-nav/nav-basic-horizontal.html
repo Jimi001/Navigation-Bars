@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link id="theme-style" rel="stylesheet" href="../css/horizontal-nav/base.css">
+</head>
+
+<body>
+    <h2>Horizontal Navigation Bar</h2>
+    <!-- Buttons to switch CSS -->
+    <button onclick="switchStyle('../css/horizontal-nav/style1.css')">Style 1</button>
+    <button onclick="switchStyle('../css/horizontal-nav/style2.css')">Style 2</button>
+    <button onclick="switchStyle('../css/horizontal-nav/style3.css')">Style 3</button>
+    <button onclick="switchStyle('../css/horizontal-nav/style4.css')">Style 4</button>
+    <button onclick="switchStyle('../css/horizontal-nav/style5.css')">Style 5</button>
+    <button onclick="switchStyle('../css/horizontal-nav/style6.css')">Style 6</button>
+    <button onclick="switchStyle('../css/horizontal-nav/style7.css')">Style 7</button>
+    <button onclick="switchStyle('../css/horizontal-nav/style8.css')">Style 8</button>
+    <button onclick="switchStyle('../css/horizontal-nav/style9.css')">Style 9</button><br><br>
+    <button onclick="window.location.href='../index.html'">Go to Home Page</button>
+
+    <ul>
+        <li class="dropdown active">
+                <a href="nav-basic-horizontal.html" class="dropbtn">Home</a>
+                <div class="dropdown-content">
+                    <a href="nav-basic-horizontal.html">Go home</a>
+                    <a href="nav-basic-horizontal.html">See ya later!</a>
+                    <a href="nav-basic-horizontal.html">Bye</a>
+                </div>
+            </li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <div style="padding:20px;margin-top:20px;background-color:#1abc9c;height:1500px;">
+        <h1>Fixed Top/Bottom Navigation Bar</h1>
+        <h2>Scroll this page to see the effect</h2>
+        <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+    </div>
+
+    <script>
+        function switchStyle(cssFile) {
+            document.getElementById('theme-style').setAttribute('href', cssFile);
+        }
+    </script>
+
+</body>
+
+</html>
